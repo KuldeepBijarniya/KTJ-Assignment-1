@@ -35,7 +35,6 @@ border-bottom: 3px solid white;
 
 header div.photo1{
     background-color: rgb(230, 220, 220);
-    margin-top: 10px;
     position: relative;
     display: flex;
     max-width: 100%;
@@ -51,17 +50,17 @@ header div.photo1 .p1{
    width: 50%;
 }
 header div.photo1 .p2 img{
-    width: 745px;
+    width: 765px;
     height: 650px;
 }
 
 .mainlogo{
 position: absolute;
-top: 60%;
+top: 58%;
 left: 20%;
 }
 .mainlogo img{
-width: 80%;
+width: 75%;
 }
 .mainlogo img:hover{
 transform: scale(1.1);
@@ -69,23 +68,23 @@ transition: 0.6s;
 }
 header div.photo1 h1{
     position: absolute;
-top: 30%;
-left: 18%;
-font-size: 70px;
-color: crimson;
-background-color: aliceblue;
+    top: 28%;
+    left: 17%;
+    font-size: 70px;
+    color: crimson;
+    background-color: #ab9da133;
 }
 header div.photo1 h2{
     position: absolute;
-    top: 44%;
-    left: 15%;
+    top: 43%;
+    left: 14%;
     color: #41c5a6;
     font-size: 50px;
-    background-color: black;
+    background-color: #2d2c277a;
 }
 .but button{
     position: absolute;
-    top: 91%;
+    top: 88%;
     left: 16%;
     width: 290px;
     height: 40px;
@@ -165,10 +164,11 @@ text-decoration: line-through 2px;
 
 .r1 .p-1 button{
     position: absolute;
-    top: 48%;
-    left: 80%;
-    width: 65px;
+    top: 50%;
+    left: 75%;
+    width: 90px;
     height: 40px;
+    border-radius: 20px;
 }
 
 .r1 .p-2{
@@ -216,10 +216,11 @@ text-decoration: line-through 2px;
 
 .r1 .p-2 button{
     position: absolute;
-    top: 48%;
-    left: 80%;
-    width: 65px;
+    top: 50%;
+    left: 75%;
+    width: 90px;
     height: 40px;
+    border-radius: 20px;
 }
 .r1 .p-3{
     width: 45%;
@@ -267,10 +268,11 @@ text-decoration: line-through 2px;
 
 .r1 .p-3 button{
     position: absolute;
-    top: 48%;
-    left: 80%;
-    width: 65px;
+    top: 50%;
+    left: 75%;
+    width: 90px;
     height: 40px;
+    border-radius: 20px;
 }
 .r2{
     width: 100%;
@@ -324,10 +326,11 @@ text-decoration: line-through 2px;
 
 .r2 .p-1 button{
     position: absolute;
-    top: 45%;
-    left: 80%;
-    width: 65px;
+    top: 46%;
+    left: 73%;
+    width: 90px;
     height: 40px;
+    border-radius: 20px;
 }
 .r2 .p-2{
     width: 45%;
@@ -375,10 +378,11 @@ text-decoration: line-through 2px;
 
 .r2 .p-2 button{
     position: absolute;
-    top: 45%;
-    left: 80%;
-    width: 65px;
+    top: 46%;
+    left: 73%;
+    width: 90px;
     height: 40px;
+    border-radius: 20px;
 }
 .r2 .p-3{
     width: 45%;
@@ -425,10 +429,11 @@ text-decoration: line-through 2px;
 
 .r2 .p-3 button{
     position: absolute;
-    top: 45%;
-    left: 80%;
-    width: 65px;
+    top: 46%;
+    left: 73%;
+    width: 90px;
     height: 40px;
+    border-radius: 20px;
 }
 #recm{
     text-align: center;
@@ -519,6 +524,7 @@ margin: 0px 10px;
     left: 76%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc1 .p2{
@@ -571,6 +577,7 @@ margin: 0px 10px;
     left: 80%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc1 .p3{
@@ -623,6 +630,7 @@ margin: 0px 10px;
     left: 81%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc1 .p4{
@@ -676,6 +684,7 @@ top: 43%;
 left: 80%;
 width: 62px;
 height: 44px;
+border-radius: 20px;
 }
 div.rc2{
     display: flex;
@@ -731,6 +740,7 @@ margin: 0px 10px;
     left: 76%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc2 .p2{
@@ -784,6 +794,7 @@ margin: 0px 10px;
     left: 80%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc2 .p3{
@@ -837,6 +848,7 @@ margin: 0px 10px;
     left: 81%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc2 .p4{
@@ -885,11 +897,12 @@ font-size: 16px;
 margin: 0px 10px;
 }
 .rc2 .p4 button{
-    position: absolute;
+position: absolute;
 top: 43%;
 left: 80%;
 width: 62px;
 height: 44px;
+border-radius: 20px;
 }
 div.rc3{
     display: flex;
@@ -946,6 +959,7 @@ top: 43%;
 left: 82%;
 width: 62px;
 height: 44px;
+border-radius: 20px;
 }
 
 .rc3 .p2{
@@ -999,6 +1013,7 @@ margin: 0px 10px;
     left: 80%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc3 .p3{
@@ -1052,6 +1067,7 @@ margin: 0px 10px;
     left: 80%;
     width: 62px;
     height: 44px;
+    border-radius: 20px;
 }
 
 .rc3 .p4{
@@ -1105,6 +1121,7 @@ top: 43%;
 left: 80%;
 width: 62px;
 height: 44px;
+border-radius: 20px;
 }
 section.nc{
     margin-bottom: 60px;
@@ -1149,6 +1166,7 @@ main form{
       margin-left: 20px;
       border: 2px solid black;
   }
+
   #rat1{
     margin: 19px 6px;
   }
@@ -1163,6 +1181,7 @@ main form{
     width: 127px;
     height: 56px;
   }
+  
   footer{
     background-image: linear-gradient(to left, rgba(184, 184, 184, 0.8), rgba(212, 212, 212, 0.8));
     margin: 0px 12px;

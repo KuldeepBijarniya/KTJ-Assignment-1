@@ -1,3 +1,53 @@
+<?php
+$server = "localhost";
+$username = "root";
+$password = "";
+$dbname = "reviewform";
+$insert = false;
+$con = mysqli_connect($server,$username,$password,$dbname);
+
+if (!$con) {
+    die("Connection to this database failed due to".mysqli_connect_error());
+}
+
+$name = $_POST['Name'];
+$email = $_POST['Email'];
+$gender = $_POST['gender'];
+$review = $_POST['rev'];
+$rate = $_POST['rate'];
+
+$sql = "INSERT INTO `reviewform`.`reviewform`(`Name`, `Email`, `Gender`, `Reviews`, `Rating`, `Date&Time`) VALUES ('$name','$email','$gender','$review', '$rate',current_timestamp());";
+// echo $sql;
+
+if ($con->query($sql)==true) {
+    $insert = true;
+}
+else {
+   echo "Error :$sql <br> $con->error()";
+}
+$con->close();
+?>
+
+<!-- //// database connection code
+$con = mysqli_connect('localhost', 'root', '','db_contact');
+
+$name = $_POST['Name'];
+$email = $_POST['Email'];
+$gender = $_POST['gender'];
+$review = $_POST['rev'];
+$rate = $_POST['rate'];
+
+
+// database insert SQL code
+$sql = "INSERT INTO `reviewform`.`reviewform`(`Name`, `Email`, `Gender`, `Reviews`, `Rating`, `Date&Time`) VALUES ('$name','$email','$gender','$review', '$rate',current_timestamp());";
+// insert in database 
+$rs = mysqli_query($con, $sql);
+if($rs)
+{
+	echo "Contact Records Inserted";
+}
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +56,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GupSup</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/CSS/responsive.css">
 </head>
 
@@ -23,15 +73,15 @@
 
         <div class="photo1">
             <div class="p1">
-                <img src="/IMAGES/bg1.jpg" alt="blurimg">
+                <img src="bg1.jpg" alt="blurimg">
             </div>
             <div class="p2">
-                <img src="/IMAGES/photo1.jfif" alt="restoimg">
+                <img src="photo1.jfif" alt="restoimg">
             </div>
             <h1>GupSup</h1>
             <h2>Sweet and Delite</h2>
             <div class="mainlogo">
-                <img src="/IMAGES/logo.png" alt="mainlogo">
+                <img src="logo.png" alt="mainlogo">
             </div>
             <div class="but">
                 <button><a href="#spec">Check our Specilsations</a></button>
@@ -47,7 +97,7 @@
             <div>
                 <div class="r1">
                     <div class="p-1">
-                        <img src="/IMAGES/paneer-tikka-image-min.jpg" alt="paneer tika">
+                        <img src="paneer-tikka-image-min.jpg" alt="paneer tika">
                         <h2>Paneer Tikka</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -59,10 +109,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="r1p1but">Add+</button>
                     </div>
                     <div class="p-2">
-                        <img src="/IMAGES/pasta-image-min.jpg" alt="pasta">
+                        <img src="pasta-image-min.jpg" alt="pasta">
                         <h2>Pasta</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -74,10 +124,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="r1p2but">Add+</button>
                     </div>
                     <div class="p-3">
-                        <img src="/IMAGES/pav-bhaji-image.jpg" alt="pav bhaji">
+                        <img src="pav-bhaji-image.jpg" alt="pav bhaji">
                         <h2>Pav Bhaji</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -89,12 +139,12 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="r1p3but">Add+</button>
                     </div>
                 </div>
                 <div class="r2">
                     <div class="p-1">
-                        <img src="/IMAGES/burger-image.jpg" alt="burger">
+                        <img src="burger-image.jpg" alt="burger">
                         <h2>Burger</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -106,10 +156,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="r2p1but">Add+</button>
                     </div>
                     <div class="p-2">
-                        <img src="/IMAGES/dal image.jpg" alt="dal">
+                        <img src="dal image.jpg" alt="dal">
                         <h2>Dal</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -121,10 +171,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="r2p2but">Add+</button>
                     </div>
                     <div class="p-3">
-                        <img src="/IMAGES/dosa-image.jpeg" alt="dosaa">
+                        <img src="dosa-image.jpeg" alt="dosaa">
                         <h2>Dosa</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -136,7 +186,7 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="r2p3but">Add+</button>
                     </div>
                 </div>
             </div>
@@ -148,12 +198,12 @@
                     <h2>If once got in touch you will make it your Habit</h2>
                     <div class="srh">
                         <input type="text" placeholder="Search dishes here">
-                        <img src="/IMAGES/srh logo.png" alt="Search logo" class="srhlogo">
+                        <img src="srh logo.png" alt="Search logo" class="srhlogo">
                     </div>
                 </div>
                 <div class="rc1">
                     <div class="p1">
-                        <img src="/IMAGES/pizza2-image.jpg" alt="pizza">
+                        <img src="pizza2-image.jpg" alt="pizza">
                         <h2>Pizza</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -165,10 +215,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc1p1but">Add+</button>
                     </div>
                     <div class="p2">
-                        <img src="/IMAGES/pasta-red-image.jpg" alt="red pasta">
+                        <img src="pasta-red-image.jpg" alt="red pasta">
                         <h2>Red Pasta</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -180,10 +230,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc1p2but">Add+</button>
                     </div>
                     <div class="p3">
-                        <img src="/IMAGES/shahipaneer-image.jpg" alt="Shahipaneer">
+                        <img src="shahipaneer-image.jpg" alt="Shahipaneer">
                         <h2>Shahipaneer</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -195,10 +245,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc1p3but">Add+</button>
                     </div>
                     <div class="p4">
-                        <img src="/IMAGES/sandwich-image.jpg" alt="sandwich">
+                        <img src="sandwich-image.jpg" alt="sandwich">
                         <h2>Sandwich</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -210,12 +260,12 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc1p4but">Add+</button>
                     </div>
                 </div>
                 <div class="rc2">
                     <div class="p1">
-                        <img src="/IMAGES/roti.jfif" alt="Roti">
+                        <img src="roti.jfif" alt="Roti">
                         <h2>Roti</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -227,10 +277,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc2p1but">Add+</button>
                     </div>
                     <div class="p2">
-                        <img src="/IMAGES/samosa.jpg" alt="samosa">
+                        <img src="samosa.jpg" alt="samosa">
                         <h2>Samosa</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -242,10 +292,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc2p2but">Add+</button>
                     </div>
                     <div class="p3">
-                        <img src="/IMAGES/samosa pkoda.jpg" alt="Pakoda Samosa">
+                        <img src="samosa pkoda.jpg" alt="Pakoda Samosa">
                         <h2>Pakoda</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -257,10 +307,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc2p3but">Add+</button>
                     </div>
                     <div class="p4">
-                        <img src="/IMAGES/aalu tiki.jpg" alt="Aalu Tiki">
+                        <img src="aalu tiki.jpg" alt="Aalu Tiki">
                         <h2>Aalu Tiki</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -272,12 +322,12 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc2p4but">Add+</button>
                     </div>
                 </div>
                 <div class="rc3">
                     <div class="p1">
-                        <img src="/IMAGES/Mirchi Vada.jfif" alt="Mirchi Vada">
+                        <img src="Mirchi Vada.jfif" alt="Mirchi Vada">
                         <h2>Mirchi Vada</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -289,10 +339,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc3p1but">Add+</button>
                     </div>
                     <div class="p2">
-                        <img src="/IMAGES/pasta-red-image.jpg" alt="red pasta">
+                        <img src="pasta-red-image.jpg" alt="red pasta">
                         <h2>Red Pasta</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -304,10 +354,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc3p2but">Add+</button>
                     </div>
                     <div class="p3">
-                        <img src="/IMAGES/dosa-image.jpeg" alt="dosa">
+                        <img src="dosa-image.jpeg" alt="dosa">
                         <h2>Dosa</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -319,10 +369,10 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc3p3but">Add+</button>
                     </div>
                     <div class="p4">
-                        <img src="/IMAGES/burger.jfif" alt="burger">
+                        <img src="burger.jfif" alt="burger">
                         <h2>Burger</h2>
                         <h3>Special 20% Discount</h3>
                         <h4>Only <span>Rs.1000</span> Rs.800</h4>
@@ -334,7 +384,7 @@
                             numquam
                             voluptates molestiae minus rem ipsam quo aut, voluptatem at vel maiores asperiores quisquam?
                         </p>
-                        <button>Add+</button>
+                        <button id="rc3p4but">Add+</button>
                     </div>
                 </div>
             </div>
@@ -345,18 +395,18 @@
                     <h1>Review Us Here</h1>
                 </div>
                 <div id="Reviews">
-                    <form>
-                        <label for="fullname">Fullname:</label>
-                        <input type="text" id="fullname" placeholder="Full Name"> <br>
+                    <form action = "index.php" method = "post">
+                        <label for="name">Full Name:</label>
+                        <input type="text" name = "Name" id="fullname" placeholder="Full Name" required> <br>
                         <label for="email">Email:</label>
-                        <input type="email" id="email" placeholder="Email"><br>
+                        <input type="email" name = "Email" id="email" placeholder="Email" required><br>
                         <label for="gender">Gender:</label>
-                        <input type="radio" name="gender" value="male" id="male">
+                        <input type="radio" name="gender" value="male" id="male" required>
                         <label for="male">Male</label>
                         <input type="radio" name="gender" value="female" id="female">
                         <label for="female">Female</label><br><br>
                         <label for="rev">Review:</label>
-                        <input type="text" id="rev" placeholder="Type the review here"><br>
+                        <input type="text" name = "rev" id="rev" placeholder="Type the review here"><br>
                         <label for="rate">Rate our Restournt:</label>
                         <input type="radio" name="rate" id="rat1" value="poor">
                         <label for="rat1">Poor</label>
@@ -365,6 +415,14 @@
                         <input type="radio" name="rate" id="rat3" value="excelent">
                         <label for="rat3">Excellent</label><br>
                         <button inputmode="submit" class="sbmt">Submit Review</button>
+						<?php
+						if($insert==true){
+							echo "<p class = 'submitmsg' style = 'color: green;
+							font-size: 24px;
+							margin-left: 14px;'>Your Response is Submitted Sucessfully</p>";	
+						}
+						
+						?>
                     </form>
                 </div>
             </div>
@@ -377,20 +435,19 @@
             <div class="bt"><a href="#sp"><button id="logotop"> Back To Top ↑</button></a></div>
             <div class="p" id="contact">Contact Us</div>
             <div class="ctcs">
-                <div class="fb"><a href="https://www.facebook.com/" target="_blank"><img src="/IMAGES/fb logo.png"
-                            alt="fb logo"></a>
+                <div class="fb"><a href="https://www.facebook.com/" target="_blank"><img src="fb logo.png" alt="fb loo">
                 </div>
                 <div class="insta"><a href="https://www.instagram.com/accounts/login/" target="_blank"><img
-                            src="/IMAGES/insta logo.png" alt="insta logo"></a></div>
+                            src="insta logo.png" alt="insta logo"></a></div>
                 <div class="whats"><a href="https://web.whatsapp.com/" target="_blank"><img
-                            src="/IMAGES/whatsapp logo.png" alt="Whats app logo"></a></div>
+                            src="whatsapp logo.png" alt="Whats app logo"></a></div>
                 <div class="twt"><a href="https://twitter.com/login?lang=en" target="_blank"><img
-                            src="/IMAGES/twiter logo.png" alt="twiter logo"></a></div>
+                            src="twiter logo.png" alt="twiter logo"></a></div>
                 <div class="lin"><a href="https://www.linkedin.com/feed/" target="_blank"><img
-                            src="/IMAGES/LinkedIn_logo.png" alt="linkdin logo"></a></div>
+                            src="LinkedIn_logo.png" alt="linkdin logo"></a></div>
             </div>
         </div>
-        <script src="/JS/sandbox.js"></script>
+        <script src="sandbox.js"></script>
     </footer>
 </body>
 
