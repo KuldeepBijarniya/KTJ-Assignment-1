@@ -1,0 +1,859 @@
+@media only screen and (max-width: 920px) {
+    header nav {
+        display: none;
+    }
+
+    header .topnav {
+        display: block;
+    }
+
+    #spec h1 {
+        font-size: 44px;
+    }
+
+    #spec h2 {
+        font-size: 24px;
+        margin-bottom: -13px;
+    }
+
+    .r1 {
+        display: block;
+        height: 100%;
+    }
+
+    .r2 {
+        display: block;
+        height: 100%;
+    }
+
+    .r1 .p-1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .r1 .p-1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r1 .p-1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-1 h4 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .r1 .p-1 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r1 .p-1 button {
+        top: 50%;
+        left: 79%;
+        width: 67px;
+        height: 36px;
+    }
+
+    .r1 .p-2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .r1 .p-2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r1 .p-2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-2 h4 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .r1 .p-2 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r1 .p-2 button {
+        top: 50%;
+        left: 79%;
+        width: 67px;
+        height: 36px;
+    }
+
+    .r1 .p-3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .r1 .p-3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r1 .p-3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r1 .p-3 h4 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .r1 .p-3 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r1 .p-3 button {
+        top: 50%;
+        left: 79%;
+        width: 67px;
+        height: 36px;
+    }
+
+    .r2 .p-1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .r2 .p-1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r2 .p-1 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-1 h4 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .r2 .p-1 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r2 .p-1 button {
+        top: 50%;
+        left: 79%;
+        width: 67px;
+        height: 36px;
+    }
+
+    .r2 .p-2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .r2 .p-2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r2 .p-2 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-2 h4 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .r2 .p-2 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r2 .p-2 button {
+        top: 50%;
+        left: 79%;
+        width: 67px;
+        height: 36px;
+    }
+
+    .r2 .p-3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .r2 .p-3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .r2 .p-3 h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .r2 .p-3 h4 {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .r2 .p-3 p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .r2 .p-3 button {
+        top: 50%;
+        left: 79%;
+        width: 67px;
+        height: 36px;
+    }
+    .r1 .p-1 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+    
+    .r1 .p-2 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+    
+    .r1 .p-3 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+    
+    .r2 .p-1 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+    
+    .r2 .p-2 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+    
+    .r2 .p-3 img {
+        width: 96%;
+        margin-top: 9px;
+        height: 200px;
+    }
+
+    #recm h1 {
+        font-size: 2rem;
+    }
+
+    #recm h2 {
+        font-size: 16px;
+    }
+
+    #recm .srh input {
+        width: 90%;
+        height: 2rem;
+        margin: 6% 0 -2% 0;
+        padding-left: 14px;
+    }
+
+    #recm .srh img {
+        width: 7%;
+        top: 52%;
+        right: 7%;
+    }
+
+    div.rc1 {
+        display: block;
+    }
+
+    div.rc2 {
+        display: block;
+    }
+
+    div.rc3 {
+        display: block;
+        height: 100%;
+    }
+
+    .rc1 .p1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p4 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc1 .p4 img {
+        height: 200px;
+    }
+
+    .rc1 .p4 p {
+        font-size: 12px;
+    }
+
+    .rc1 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p4 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc1 .p4 h4 {
+        font-size: 16px;
+    }
+
+    .rc1 .p4 button {
+        top: 53%;
+    }
+
+    .rc1 .p1 img {
+        height: 200px;
+    }
+
+    .rc1 .p1 p {
+        font-size: 12px;
+    }
+
+    .rc1 .p1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p1 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc1 .p1 h4 {
+        font-size: 16px;
+    }
+
+    .rc1 .p1 button {
+        top: 53%;
+    }
+
+    .rc1 .p2 img {
+        height: 200px;
+    }
+
+    .rc1 .p2 p {
+        font-size: 12px;
+    }
+
+    .rc1 .p2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p2 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc1 .p2 h4 {
+        font-size: 16px;
+    }
+
+    .rc1 .p2 button {
+        top: 53%;
+    }
+
+    .rc1 .p3 img {
+        height: 200px;
+    }
+
+    .rc1 .p3 p {
+        font-size: 12px;
+    }
+
+    .rc1 .p3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p3 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc1 .p3 h4 {
+        font-size: 16px;
+    }
+
+    .rc1 .p3 button {
+        top: 53%;
+    }
+
+    .rc1 .p4 img {
+        height: 200px;
+    }
+
+    .rc1 .p4 p {
+        font-size: 12px;
+    }
+
+    .rc1 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc1 .p4 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc1 .p4 h4 {
+        font-size: 16px;
+    }
+
+    .rc1 .p4 button {
+        top: 53%;
+    }
+
+    .rc2 .p1 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p2 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p3 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p4 {
+        width: 90%;
+        margin: 30px auto;
+        height: 100%;
+    }
+
+    .rc2 .p4 img {
+        height: 200px;
+    }
+
+    .rc2 .p4 p {
+        font-size: 12px;
+    }
+
+    .rc2 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p4 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc2 .p4 h4 {
+        font-size: 16px;
+    }
+
+    .rc2 .p4 button {
+        top: 53%;
+    }
+
+    .rc2 .p1 img {
+        height: 200px;
+    }
+
+    .rc2 .p1 p {
+        font-size: 12px;
+    }
+
+    .rc2 .p1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p1 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc2 .p1 h4 {
+        font-size: 16px;
+    }
+
+    .rc2 .p1 button {
+        top: 53%;
+    }
+
+    .rc2 .p2 img {
+        height: 200px;
+    }
+
+    .rc2 .p2 p {
+        font-size: 12px;
+    }
+
+    .rc2 .p2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p2 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc2 .p2 h4 {
+        font-size: 16px;
+    }
+
+    .rc2 .p2 button {
+        top: 53%;
+    }
+
+    .rc2 .p3 img {
+        height: 200px;
+    }
+
+    .rc2 .p3 p {
+        font-size: 12px;
+    }
+
+    .rc2 .p3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p3 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc2 .p3 h4 {
+        font-size: 16px;
+    }
+
+    .rc2 .p3 button {
+        top: 53%;
+    }
+
+    .rc2 .p4 img {
+        height: 200px;
+    }
+
+    .rc2 .p4 p {
+        font-size: 12px;
+    }
+
+    .rc2 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc2 .p4 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc2 .p4 h4 {
+        font-size: 16px;
+    }
+
+    .rc2 .p4 button {
+        top: 53%;
+    }
+
+    .rc3 .p1 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p3 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p4 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .rc3 .p4 img {
+        height: 200px;
+    }
+
+    .rc3 .p4 p {
+        font-size: 12px;
+    }
+
+    .rc3 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p4 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc3 .p4 h4 {
+        font-size: 16px;
+    }
+
+    .rc3 .p4 button {
+        top: 53%;
+    }
+
+    .rc3 .p1 img {
+        height: 200px;
+    }
+
+    .rc3 .p1 p {
+        font-size: 12px;
+    }
+
+    .rc3 .p1 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p1 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc3 .p1 h4 {
+        font-size: 16px;
+    }
+
+    .rc3 .p1 button {
+        top: 53%;
+    }
+
+    .rc3 .p2 img {
+        height: 200px;
+    }
+
+    .rc3 .p2 p {
+        font-size: 12px;
+    }
+
+    .rc3 .p2 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p2 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc3 .p2 h4 {
+        font-size: 16px;
+    }
+
+    .rc3 .p2 button {
+        top: 53%;
+    }
+
+    .rc3 .p3 img {
+        height: 200px;
+    }
+
+    .rc3 .p3 p {
+        font-size: 12px;
+    }
+
+    .rc3 .p3 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p3 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc3 .p3 h4 {
+        font-size: 16px;
+    }
+
+    .rc3 .p3 button {
+        top: 53%;
+    }
+
+    .rc3 .p4 img {
+        height: 200px;
+    }
+
+    .rc3 .p4 p {
+        font-size: 12px;
+    }
+
+    .rc3 .p4 h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .rc3 .p4 h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .rc3 .p4 h4 {
+        font-size: 16px;
+    }
+
+    .rc3 .p4 button {
+        top: 53%;
+    }
+
+    .review-section div h3 {
+        margin-left: 14%;
+        font-size: 40px;
+    }
+
+    .reviewflex {
+        display: block;
+    }
+
+    .reviewflex div {
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .feedbackplace {
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    main form {
+        padding-left: 7px;
+        margin: 0 2%;
+        width: 95%;
+    }
+
+    #fullname {
+        width: 95%;
+        margin-bottom: 3%;
+    }
+
+    #email {
+        width: 95%;
+        margin-bottom: 5%;
+    }
+
+    #male {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #female {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #rev {
+        margin-left: 80px;
+        width: 95%;
+        margin-bottom: 1%;
+    }
+
+    #rat1 {
+        margin: 0%;
+    }
+
+    #rat2 {
+        margin: 0%;
+    }
+
+    #rat3 {
+        margin: 0%;
+    }
+}
+
+@media (max-width: 1070px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
+    }
+}
