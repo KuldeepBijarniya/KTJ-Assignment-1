@@ -20,47 +20,49 @@ header nav {
 header .topnav {
     display: none;
 }
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
     display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
+}
+
+/* Style navigation menu links */
+.topnav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
     background: black;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
+}
+
+/* Style the active link (or home/logo) */
+.active {
     background-color: #04AA6D;
     color: white;
-  }
+}
+
 header nav ul {
     display: flex;
     text-align: center;
@@ -85,64 +87,66 @@ header nav ul li:hover {
 
 header div.intro {
     background-color: rgb(230, 220, 220);
-    position: relative;
     display: flex;
-    justify-content: right;
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
 }
 
-header div.intro .p1 {
+header div.intro .ph1 {
+    position: relative;
     width: 50%;
+    margin-bottom: 40px;
 }
 
-/* header div.intro .p1 img{
+header div.intro .ph1 img {
     width: 99.5%;
     height: 650px;
 }
-header div.intro .p2{
-    width: 50%;
+#mainlogo img{
+    position: absolute;
+    width: 45%;
+    top: 30%;
+    height: 45%;
+    left: 28%;
 }
-header div.intro .p2 img{
-    margin: 10%;
-    width: 80%;
-} */
-
-.mainlogo img {
-    width: 80%;
-    margin: 10%;
-}
-
-.mainlogo img:hover {
+#mainlogo img:hover {
     transform: scale(1.1);
     transition: 0.6s;
+}
+header div.intro .ph2 {
+    width: 50%;
+    position: relative;
+}
+
+header div.intro .ph2 img {
+    width: 100%;
+    height: 93.75%;
 }
 
 header div.intro h1 {
     position: absolute;
-    top: 12%;
-    left: 17%;
+    top: 2%;
+    left: 32%;
     font-size: 5rem;
     color: crimson;
 }
 
 header div.intro h2 {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 19%;
+    left: 29%;
     color: #41c5a6;
     font-size: 3rem;
 }
 
 .but button {
     position: absolute;
-    top: 66%;
-    left: 14%;
-    width: 24%;
+    top: 80%;
+    left: 26%;
+    width: 50%;
     height: 12%;
-    font-size: 180%;
-    color: #ae0e0e;
+    font-size: 32px;
     border-radius: 32px;
     border: 4px solid black;
 }
@@ -175,8 +179,8 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    text-align: center;
-    height: 720px;
+    height: 600px;
+    margin-bottom: 4%;
 }
 
 .r1 .p-1 {
@@ -185,6 +189,12 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
+    height: 100%;
+}
+
+.itemss {
+    position: relative;
+    margin-left: 5%;
 }
 
 .r1 .p-1:hover {
@@ -194,24 +204,24 @@ main {
 
 .r1 .p-1 img {
     width: 96%;
-    margin-top: 9px;
+    height: 45%;
+    margin: 9px;
 }
 
 .r1 .p-1 h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     color: azure;
-    margin-top: 12px;
 }
 
 .r1 .p-1 h2:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     transform: 0.4s;
 }
 
 .r1 .p-1 h3 {
     font-size: 30px;
-    margin-top: 9px;
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -220,6 +230,7 @@ main {
     margin: 2% 0;
     color: #cee0fb;
     background-color: black;
+    text-align: center;
 }
 
 .r1 .p-1 h4 span {
@@ -227,16 +238,16 @@ main {
 }
 
 .r1 .p-1 p {
-    margin: 0px 15px;
+    margin: 0px 10px;
     font-size: 17px;
 }
 
 .r1 .p-1 button {
     position: absolute;
-    top: 50%;
-    left: 75%;
-    width: 90px;
-    height: 40px;
+    top: 5%;
+    left: 70%;
+    width: 20%;
+    height: 109%;
     border-radius: 20px;
 }
 
@@ -246,6 +257,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
+    height: 100%;
 }
 
 .r1 .p-2:hover {
@@ -255,24 +267,24 @@ main {
 
 .r1 .p-2 img {
     width: 96%;
-    margin-top: 9px;
+    height: 45%;
+    margin: 9px;
 }
 
 .r1 .p-2 h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     color: azure;
-    margin-top: 12px;
 }
 
 .r1 .p-2 h2:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transform: 0.4s;
 }
 
 .r1 .p-2 h3 {
     font-size: 30px;
-    margin-top: 9px;
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -281,6 +293,7 @@ main {
     margin: 2% 0;
     color: #cee0fb;
     background-color: black;
+    text-align: center;
 }
 
 .r1 .p-2 h4 span {
@@ -288,16 +301,16 @@ main {
 }
 
 .r1 .p-2 p {
-    margin: 0px 15px;
+    margin: 0px 10px;
     font-size: 17px;
 }
 
 .r1 .p-2 button {
     position: absolute;
-    top: 50%;
-    left: 75%;
-    width: 90px;
-    height: 40px;
+    top: 5%;
+    left: 70%;
+    width: 20%;
+    height: 109%;
     border-radius: 20px;
 }
 
@@ -307,6 +320,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
+    height: 100%;
 }
 
 .r1 .p-3:hover {
@@ -316,25 +330,24 @@ main {
 
 .r1 .p-3 img {
     width: 96%;
-    margin-top: 9px;
-    height: 44%;
+    margin: 9px;
+    height: 45%;
 }
 
 .r1 .p-3 h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     color: azure;
-    margin-top: 12px;
 }
 
 .r1 .p-3 h2:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transform: 0.4s;
 }
 
 .r1 .p-3 h3 {
     font-size: 30px;
-    margin-top: 9px;
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -343,6 +356,7 @@ main {
     margin: 2% 0;
     color: #cee0fb;
     background-color: black;
+    text-align: center;
 }
 
 .r1 .p-3 h4 span {
@@ -350,16 +364,16 @@ main {
 }
 
 .r1 .p-3 p {
-    margin: 0px 15px;
+    margin: 0px 10px;
     font-size: 17px;
 }
 
 .r1 .p-3 button {
     position: absolute;
-    top: 50%;
-    left: 75%;
-    width: 90px;
-    height: 40px;
+    top: 5%;
+    left: 70%;
+    width: 20%;
+    height: 109%;
     border-radius: 20px;
 }
 
@@ -367,8 +381,8 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    text-align: center;
-    height: 670px;
+    height: 600px;
+    margin-bottom: 6%;
 }
 
 .r2 .p-1 {
@@ -377,6 +391,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
+    height: 100%;
 }
 
 .r2 .p-1:hover {
@@ -386,24 +401,24 @@ main {
 
 .r2 .p-1 img {
     width: 96%;
-    margin-top: 9px;
+    height: 45%;
+    margin: 9px;
 }
 
 .r2 .p-1 h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     color: azure;
-    margin-top: 12px;
 }
 
 .r2 .p-1 h2:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transform: 0.4s;
 }
 
 .r2 .p-1 h3 {
     font-size: 30px;
-    margin-top: 9px;
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -412,6 +427,7 @@ main {
     margin: 2% 0;
     color: #cee0fb;
     background-color: black;
+    text-align: center;
 }
 
 .r2 .p-1 h4 span {
@@ -419,16 +435,16 @@ main {
 }
 
 .r2 .p-1 p {
-    margin: 0px 15px;
+    margin: 0px 10px;
     font-size: 17px;
 }
 
 .r2 .p-1 button {
     position: absolute;
-    top: 46%;
-    left: 73%;
-    width: 90px;
-    height: 40px;
+    top: 5%;
+    left: 70%;
+    width: 20%;
+    height: 109%;
     border-radius: 20px;
 }
 
@@ -438,6 +454,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
+    height: 100%;
 }
 
 .r2 .p-2:hover {
@@ -447,25 +464,24 @@ main {
 
 .r2 .p-2 img {
     width: 96%;
-    margin-top: 9px;
-    height: 40%;
+    height: 45%;
+    margin: 9px;
 }
 
 .r2 .p-2 h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     color: azure;
-    margin-top: 12px;
 }
 
 .r2 .p-2 h2:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transform: 0.4s;
 }
 
 .r2 .p-2 h3 {
     font-size: 30px;
-    margin-top: 9px;
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -474,6 +490,7 @@ main {
     margin: 2% 0;
     color: #cee0fb;
     background-color: black;
+    text-align: center;
 }
 
 .r2 .p-2 h4 span {
@@ -481,16 +498,16 @@ main {
 }
 
 .r2 .p-2 p {
-    margin: 0px 15px;
+    margin: 0px 10px;
     font-size: 17px;
 }
 
 .r2 .p-2 button {
     position: absolute;
-    top: 46%;
-    left: 73%;
-    width: 90px;
-    height: 40px;
+    top: 5%;
+    left: 70%;
+    width: 20%;
+    height: 109%;
     border-radius: 20px;
 }
 
@@ -500,6 +517,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
+    height: 100%;
 }
 
 .r2 .p-3:hover {
@@ -509,24 +527,24 @@ main {
 
 .r2 .p-3 img {
     width: 96%;
-    margin-top: 9px;
+    height: 45%;
+    margin: 9px;
 }
 
 .r2 .p-3 h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     color: azure;
-    margin-top: 12px;
 }
 
 .r2 .p-3 h2:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transform: 0.4s;
 }
 
 .r2 .p-3 h3 {
     font-size: 30px;
-    margin-top: 9px;
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -535,6 +553,7 @@ main {
     margin: 2% 0;
     color: #cee0fb;
     background-color: black;
+    text-align: center;
 }
 
 .r2 .p-3 h4 span {
@@ -542,16 +561,16 @@ main {
 }
 
 .r2 .p-3 p {
-    margin: 0px 15px;
+    margin: 0px 10px;
     font-size: 17px;
 }
 
 .r2 .p-3 button {
     position: absolute;
-    top: 46%;
-    left: 73%;
-    width: 90px;
-    height: 40px;
+    top: 5%;
+    left: 70%;
+    width: 20%;
+    height: 109%;
     border-radius: 20px;
 }
 
@@ -604,7 +623,6 @@ div.rc1 {
     width: 25%;
     margin: 12px;
     background-color: #ae6c1d;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -615,25 +633,25 @@ div.rc1 {
 }
 
 .rc1 .p1 img {
-    width: 96%;
-    margin-top: 6px;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc1 .p1 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 
 .rc1 .p1 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc1 .p1 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -642,6 +660,7 @@ div.rc1 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc1 .p1 h4 span {
@@ -655,10 +674,10 @@ div.rc1 {
 
 .rc1 .p1 button {
     position: absolute;
-    top: 43%;
-    left: 76%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -666,7 +685,6 @@ div.rc1 {
     width: 25%;
     margin: 12px;
     background-color: #8eae1d;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -677,25 +695,25 @@ div.rc1 {
 }
 
 .rc1 .p2 img {
-    width: 96%;
-    margin-top: 6px;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc1 .p2 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 
 .rc1 .p2 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc1 .p2 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -704,6 +722,7 @@ div.rc1 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc1 .p2 h4 span {
@@ -717,10 +736,10 @@ div.rc1 {
 
 .rc1 .p2 button {
     position: absolute;
-    top: 43%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -728,7 +747,6 @@ div.rc1 {
     width: 25%;
     margin: 12px;
     background-color: #1dae78;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -739,15 +757,14 @@ div.rc1 {
 }
 
 .rc1 .p3 img {
-    width: 96%;
-    margin-top: 6px;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc1 .p3 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 
 .rc1 .p3 h2:hover {
@@ -758,6 +775,7 @@ div.rc1 {
 .rc1 .p3 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -766,6 +784,7 @@ div.rc1 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc1 .p3 h4 span {
@@ -779,10 +798,10 @@ div.rc1 {
 
 .rc1 .p3 button {
     position: absolute;
-    top: 43%;
-    left: 81%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -790,7 +809,6 @@ div.rc1 {
     width: 25%;
     margin: 12px;
     background-color: #7c778c;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -801,26 +819,27 @@ div.rc1 {
 }
 
 .rc1 .p4 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 38%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc1 .p4 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc1 .p4 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc1 .p4 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -829,6 +848,7 @@ div.rc1 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc1 .p4 h4 span {
@@ -842,10 +862,10 @@ div.rc1 {
 
 .rc1 .p4 button {
     position: absolute;
-    top: 43%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -858,9 +878,7 @@ div.rc2 {
     width: 25%;
     margin: 12px;
     background-color: #ae6c1d;
-    text-align: center;
     border-radius: 12px;
-    height: 590px;
 }
 
 .rc2 .p1:hover {
@@ -869,26 +887,27 @@ div.rc2 {
 }
 
 .rc2 .p1 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 40%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc2 .p1 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc2 .p1 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc2 .p1 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -897,6 +916,7 @@ div.rc2 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc2 .p1 h4 span {
@@ -910,10 +930,10 @@ div.rc2 {
 
 .rc2 .p1 button {
     position: absolute;
-    top: 43%;
-    left: 76%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -922,9 +942,7 @@ div.rc2 {
     width: 25%;
     margin: 12px;
     background-color: #8eae1d;
-    text-align: center;
     border-radius: 12px;
-    height: 590px;
 }
 
 .rc2 .p2:hover {
@@ -933,26 +951,27 @@ div.rc2 {
 }
 
 .rc2 .p2 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 40%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc2 .p2 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc2 .p2 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc2 .p2 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -961,6 +980,7 @@ div.rc2 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc2 .p2 h4 span {
@@ -974,10 +994,10 @@ div.rc2 {
 
 .rc2 .p2 button {
     position: absolute;
-    top: 43%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -986,9 +1006,7 @@ div.rc2 {
     width: 25%;
     margin: 12px;
     background-color: #1dae78;
-    text-align: center;
     border-radius: 12px;
-    height: 590px;
 }
 
 .rc2 .p3:hover {
@@ -997,16 +1015,16 @@ div.rc2 {
 }
 
 .rc2 .p3 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 40%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc2 .p3 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc2 .p3 h2:hover {
@@ -1017,6 +1035,7 @@ div.rc2 {
 .rc2 .p3 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -1025,6 +1044,7 @@ div.rc2 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc2 .p3 h4 span {
@@ -1038,10 +1058,10 @@ div.rc2 {
 
 .rc2 .p3 button {
     position: absolute;
-    top: 43%;
-    left: 81%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1050,9 +1070,7 @@ div.rc2 {
     width: 25%;
     margin: 12px;
     background-color: #7c778c;
-    text-align: center;
     border-radius: 12px;
-    height: 590px;
 }
 
 .rc2 .p4:hover {
@@ -1061,26 +1079,27 @@ div.rc2 {
 }
 
 .rc2 .p4 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 40%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc2 .p4 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc2 .p4 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc2 .p4 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -1089,6 +1108,7 @@ div.rc2 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc2 .p4 h4 span {
@@ -1102,10 +1122,10 @@ div.rc2 {
 
 .rc2 .p4 button {
     position: absolute;
-    top: 43%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1118,7 +1138,6 @@ div.rc3 {
     width: 25%;
     margin: 12px;
     background-color: #ae6c1d;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -1129,26 +1148,27 @@ div.rc3 {
 }
 
 .rc3 .p1 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 38%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc3 .p1 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc3 .p1 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc3 .p1 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -1157,6 +1177,7 @@ div.rc3 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc3 .p1 h4 span {
@@ -1170,10 +1191,10 @@ div.rc3 {
 
 .rc3 .p1 button {
     position: absolute;
-    top: 43%;
-    left: 82%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1181,7 +1202,6 @@ div.rc3 {
     width: 25%;
     margin: 12px;
     background-color: #8eae1d;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -1192,26 +1212,27 @@ div.rc3 {
 }
 
 .rc3 .p2 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 38%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc3 .p2 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc3 .p2 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc3 .p2 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -1220,6 +1241,7 @@ div.rc3 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc3 .p2 h4 span {
@@ -1233,10 +1255,10 @@ div.rc3 {
 
 .rc3 .p2 button {
     position: absolute;
-    top: 43%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1244,7 +1266,6 @@ div.rc3 {
     width: 25%;
     margin: 12px;
     background-color: #1dae78;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -1255,16 +1276,16 @@ div.rc3 {
 }
 
 .rc3 .p3 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 38%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc3 .p3 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
+
+    
 }
 
 .rc3 .p3 h2:hover {
@@ -1274,6 +1295,7 @@ div.rc3 {
 
 .rc3 .p3 h3 {
     font-size: 28px;
+    text-align: center;
     color: #d6faee;
     margin-bottom: 10px;
 }
@@ -1283,6 +1305,7 @@ div.rc3 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc3 .p3 h4 span {
@@ -1296,10 +1319,10 @@ div.rc3 {
 
 .rc3 .p3 button {
     position: absolute;
-    top: 42%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1307,7 +1330,6 @@ div.rc3 {
     width: 25%;
     margin: 12px;
     background-color: #7c778c;
-    text-align: center;
     border-radius: 12px;
     position: relative;
 }
@@ -1318,26 +1340,25 @@ div.rc3 {
 }
 
 .rc3 .p4 img {
-    width: 96%;
-    margin-top: 6px;
-    height: 38%;
+    width: 97%;
+    margin: 6px;
+    height: 45%;
 }
 
 .rc3 .p4 h2 {
     font-size: 36px;
     color: antiquewhite;
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 
 .rc3 .p4 h2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.4s;
 }
 
 .rc3 .p4 h3 {
     font-size: 28px;
     color: #d6faee;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -1346,6 +1367,7 @@ div.rc3 {
     margin-bottom: 10px;
     color: #c8ae8c;
     background-color: black;
+    text-align: center;
 }
 
 .rc3 .p4 h4 span {
@@ -1359,10 +1381,10 @@ div.rc3 {
 
 .rc3 .p4 button {
     position: absolute;
-    top: 43%;
-    left: 80%;
-    width: 62px;
-    height: 44px;
+    top: 0%;
+    left: 70%;
+    width: 22%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -1442,9 +1464,11 @@ div.rev h1 {
     height: 97%;
     margin: 0 2% 2% 2%;
 }
- .map{
+
+.map {
     width: 50%;
- }
+}
+
 main form {
     padding: 30px 74px 0;
     margin: 0 1% 1% auto;

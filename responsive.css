@@ -1,4 +1,4 @@
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1080px) {
     header nav {
         display: none;
     }
@@ -7,6 +7,36 @@
         display: block;
     }
 
+    header div.intro .ph1 {
+        width: 101%;
+        margin-bottom: 0;
+    }
+    
+    header div.intro {
+        display: inline-block;
+    }
+    header div.intro h1 {
+        left: 21%;
+        font-size: 4rem;
+    }
+    header div.intro h2 {
+        top: 18%;
+        left: 5%;
+        font-size: 3rem;
+      }
+      #mainlogo img {
+        width: 70%;
+        height: 40%;
+        left: 16%;
+      }
+      .but button {
+        left: 7%;
+        width: 88%;
+      }
+    header div.intro .ph2 {
+        width: 100%;
+        margin-top: -1%;
+    }
     #spec h1 {
         font-size: 44px;
     }
@@ -51,12 +81,6 @@
         font-size: 14px;
     }
 
-    .r1 .p-1 button {
-        top: 50%;
-        left: 79%;
-        width: 67px;
-        height: 36px;
-    }
 
     .r1 .p-2 {
         width: 90%;
@@ -81,13 +105,6 @@
     .r1 .p-2 p {
         margin: 0;
         font-size: 14px;
-    }
-
-    .r1 .p-2 button {
-        top: 50%;
-        left: 79%;
-        width: 67px;
-        height: 36px;
     }
 
     .r1 .p-3 {
@@ -115,13 +132,6 @@
         font-size: 14px;
     }
 
-    .r1 .p-3 button {
-        top: 50%;
-        left: 79%;
-        width: 67px;
-        height: 36px;
-    }
-
     .r2 .p-1 {
         width: 90%;
         margin: 30px auto;
@@ -145,13 +155,6 @@
     .r2 .p-1 p {
         margin: 0;
         font-size: 14px;
-    }
-
-    .r2 .p-1 button {
-        top: 50%;
-        left: 79%;
-        width: 67px;
-        height: 36px;
     }
 
     .r2 .p-2 {
@@ -179,13 +182,6 @@
         font-size: 14px;
     }
 
-    .r2 .p-2 button {
-        top: 50%;
-        left: 79%;
-        width: 67px;
-        height: 36px;
-    }
-
     .r2 .p-3 {
         width: 90%;
         margin: 30px auto;
@@ -211,42 +207,36 @@
         font-size: 14px;
     }
 
-    .r2 .p-3 button {
-        top: 50%;
-        left: 79%;
-        width: 67px;
-        height: 36px;
-    }
     .r1 .p-1 img {
         width: 96%;
         margin-top: 9px;
         height: 200px;
     }
-    
+
     .r1 .p-2 img {
         width: 96%;
         margin-top: 9px;
         height: 200px;
     }
-    
+
     .r1 .p-3 img {
         width: 96%;
         margin-top: 9px;
         height: 200px;
     }
-    
+
     .r2 .p-1 img {
         width: 96%;
         margin-top: 9px;
         height: 200px;
     }
-    
+
     .r2 .p-2 img {
         width: 96%;
         margin-top: 9px;
         height: 200px;
     }
-    
+
     .r2 .p-3 img {
         width: 96%;
         margin-top: 9px;
@@ -329,10 +319,6 @@
         font-size: 16px;
     }
 
-    .rc1 .p4 button {
-        top: 53%;
-    }
-
     .rc1 .p1 img {
         height: 200px;
     }
@@ -353,10 +339,6 @@
 
     .rc1 .p1 h4 {
         font-size: 16px;
-    }
-
-    .rc1 .p1 button {
-        top: 53%;
     }
 
     .rc1 .p2 img {
@@ -381,10 +363,6 @@
         font-size: 16px;
     }
 
-    .rc1 .p2 button {
-        top: 53%;
-    }
-
     .rc1 .p3 img {
         height: 200px;
     }
@@ -407,10 +385,6 @@
         font-size: 16px;
     }
 
-    .rc1 .p3 button {
-        top: 53%;
-    }
-
     .rc1 .p4 img {
         height: 200px;
     }
@@ -431,10 +405,6 @@
 
     .rc1 .p4 h4 {
         font-size: 16px;
-    }
-
-    .rc1 .p4 button {
-        top: 53%;
     }
 
     .rc2 .p1 {
@@ -483,10 +453,6 @@
         font-size: 16px;
     }
 
-    .rc2 .p4 button {
-        top: 53%;
-    }
-
     .rc2 .p1 img {
         height: 200px;
     }
@@ -507,10 +473,6 @@
 
     .rc2 .p1 h4 {
         font-size: 16px;
-    }
-
-    .rc2 .p1 button {
-        top: 53%;
     }
 
     .rc2 .p2 img {
@@ -535,10 +497,6 @@
         font-size: 16px;
     }
 
-    .rc2 .p2 button {
-        top: 53%;
-    }
-
     .rc2 .p3 img {
         height: 200px;
     }
@@ -561,10 +519,6 @@
         font-size: 16px;
     }
 
-    .rc2 .p3 button {
-        top: 53%;
-    }
-
     .rc2 .p4 img {
         height: 200px;
     }
@@ -585,10 +539,6 @@
 
     .rc2 .p4 h4 {
         font-size: 16px;
-    }
-
-    .rc2 .p4 button {
-        top: 53%;
     }
 
     .rc3 .p1 {
@@ -633,10 +583,6 @@
         font-size: 16px;
     }
 
-    .rc3 .p4 button {
-        top: 53%;
-    }
-
     .rc3 .p1 img {
         height: 200px;
     }
@@ -657,10 +603,6 @@
 
     .rc3 .p1 h4 {
         font-size: 16px;
-    }
-
-    .rc3 .p1 button {
-        top: 53%;
     }
 
     .rc3 .p2 img {
@@ -685,10 +627,6 @@
         font-size: 16px;
     }
 
-    .rc3 .p2 button {
-        top: 53%;
-    }
-
     .rc3 .p3 img {
         height: 200px;
     }
@@ -711,10 +649,6 @@
         font-size: 16px;
     }
 
-    .rc3 .p3 button {
-        top: 53%;
-    }
-
     .rc3 .p4 img {
         height: 200px;
     }
@@ -735,10 +669,6 @@
 
     .rc3 .p4 h4 {
         font-size: 16px;
-    }
-
-    .rc3 .p4 button {
-        top: 53%;
     }
 
     .review-section div h3 {
@@ -813,7 +743,7 @@
     }
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1080px) {
     header {
         margin: 0;
     }
