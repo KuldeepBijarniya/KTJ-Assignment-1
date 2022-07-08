@@ -11,38 +11,46 @@
         width: 101%;
         margin-bottom: 0;
     }
-    
+
     header div.intro {
         display: inline-block;
     }
+
     header div.intro h1 {
-        left: 21%;
-        font-size: 4rem;
+        left: 14%;
+        font-size: 3rem;
     }
+
     header div.intro h2 {
         top: 18%;
-        left: 5%;
-        font-size: 3rem;
-      }
-      #mainlogo img {
+        left: 12%;
+        font-size: 32px;
+    }
+
+    #mainlogo img {
         width: 70%;
         height: 40%;
         left: 16%;
-      }
-      .but button {
-        left: 7%;
-        width: 88%;
-      }
+    }
+
+    .but button {
+        left: 2%;
+        width: 95%;
+        font-size: 22px;
+        height: 8%;
+    }
+
     header div.intro .ph2 {
         width: 100%;
         margin-top: -1%;
     }
+
     #spec h1 {
-        font-size: 44px;
+        font-size: 28px;
     }
 
     #spec h2 {
-        font-size: 24px;
+        font-size: 15px;
         margin-bottom: -13px;
     }
 
