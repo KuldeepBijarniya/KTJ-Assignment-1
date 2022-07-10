@@ -1,3 +1,17 @@
+@media only screen and (max-width: 310px) {
+    .topp {
+      width: 38%;
+      height: 36%;
+      font-size: 14px;
+      left: 58%;
+      top: 104%;
+    }
+    .brhere{
+        display: block;
+        height: 1px;
+    }
+}
+
 @media only screen and (max-width: 1080px) {
     header nav {
         display: none;
@@ -17,14 +31,14 @@
     }
 
     header div.intro h1 {
-        left: 14%;
-        font-size: 3rem;
+        left: 15%;
+        font-size: 4rem;
     }
 
     header div.intro h2 {
         top: 18%;
-        left: 12%;
-        font-size: 32px;
+        left: 8%;
+        font-size: 35px;
     }
 
     #mainlogo img {
@@ -680,8 +694,8 @@
     }
 
     .review-section div h3 {
-        margin-left: 14%;
-        font-size: 40px;
+        margin-left: 7%;
+        font-size: 35px;
     }
 
     .reviewflex {
@@ -701,25 +715,37 @@
     .feedbackplace {
         flex-direction: column;
     }
-
+    div.rev h2 {
+        font-size: 29px;
+        margin-left: 2%;
+    }
     .map {
         width: 100%;
     }
 
+    .revfed h1 {
+        font-size: 34px;
+        margin-top: 9%;
+        margin-right: 11%;
+        display: block;
+        position: relative;
+        margin-left: 0;
+    }
+
     main form {
-        padding-left: 7px;
-        margin: 0 2%;
-        width: 95%;
+        width: 100%;
+        padding: 0;
+        padding-left: 2%;
     }
 
     #fullname {
         width: 95%;
-        margin-bottom: 3%;
+        margin: 3% 1% 3% 1%;
     }
 
     #email {
         width: 95%;
-        margin-bottom: 5%;
+        margin: 3% 1% 3% 1%;
     }
 
     #male {
@@ -733,9 +759,8 @@
     }
 
     #rev {
-        margin-left: 80px;
         width: 95%;
-        margin-bottom: 1%;
+        margin: 3% 1% 3% 1%;
     }
 
     #rat1 {
