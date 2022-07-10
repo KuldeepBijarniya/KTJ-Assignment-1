@@ -106,13 +106,15 @@ header div.intro .ph1 img {
     height: 650px;
 }
 
+
 #mainlogo img {
     position: absolute;
-    width: 45%;
+    width: 300px;
     top: 30%;
-    height: 45%;
-    left: 28%;
+    height: 300px;
+    right: 29%;
 }
+
 
 #mainlogo img:hover {
     transform: scale(1.1);
@@ -132,7 +134,7 @@ header div.intro .ph2 img {
 header div.intro h1 {
     position: absolute;
     top: 2%;
-    left: 32%;
+    right: 30%;
     font-size: 5rem;
     color: crimson;
 }
@@ -140,7 +142,7 @@ header div.intro h1 {
 header div.intro h2 {
     position: absolute;
     top: 19%;
-    left: 29%;
+    right: 25%;
     color: #41c5a6;
     font-size: 3rem;
 }
@@ -148,8 +150,8 @@ header div.intro h2 {
 .but button {
     position: absolute;
     top: 80%;
-    left: 26%;
-    width: 50%;
+    right: 22.5%;
+    width: 380px;
     height: 12%;
     font-size: 32px;
     border-radius: 32px;
@@ -193,7 +195,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
-    height: fit-content;
+    height: auto;
 }
 
 .itemss {
@@ -262,7 +264,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
-    height: fit-content;
+    height: auto;
 }
 
 .r1 .p-2:hover {
@@ -326,7 +328,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
-    height: fit-content;
+    height: auto;
 }
 
 .r1 .p-3:hover {
@@ -397,7 +399,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
-    height: fit-content;
+    height: auto;
 }
 
 .r2 .p-1:hover {
@@ -461,7 +463,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
-    height: fit-content;
+    height: auto;
 }
 
 .r2 .p-2:hover {
@@ -525,7 +527,7 @@ main {
     margin: 25px 15px 15px 15px;
     position: relative;
     border-radius: 15px;
-    height: fit-content;
+    height: auto;
 }
 
 .r2 .p-3:hover {
@@ -634,7 +636,7 @@ div.rc1 {
     background-color: #ae6c1d;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc1 .p1:hover {
@@ -698,7 +700,7 @@ div.rc1 {
     background-color: #8eae1d;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc1 .p2:hover {
@@ -762,7 +764,7 @@ div.rc1 {
     background-color: #1dae78;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc1 .p3:hover {
@@ -826,7 +828,7 @@ div.rc1 {
     background-color: #7c778c;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc1 .p4:hover {
@@ -896,7 +898,7 @@ div.rc2 {
     margin: 12px;
     background-color: #ae6c1d;
     border-radius: 12px;
-    height: fit-content;
+    height: auto;
 }
 
 .rc2 .p1:hover {
@@ -962,7 +964,7 @@ div.rc2 {
     margin: 12px;
     background-color: #8eae1d;
     border-radius: 12px;
-    height: fit-content;
+    height: auto;
 }
 
 .rc2 .p2:hover {
@@ -1028,7 +1030,7 @@ div.rc2 {
     margin: 12px;
     background-color: #1dae78;
     border-radius: 12px;
-    height: fit-content;
+    height: auto;
 }
 
 .rc2 .p3:hover {
@@ -1094,7 +1096,7 @@ div.rc2 {
     margin: 12px;
     background-color: #7c778c;
     border-radius: 12px;
-    height: fit-content;
+    height: auto;
 }
 
 .rc2 .p4:hover {
@@ -1164,7 +1166,7 @@ div.rc3 {
     background-color: #ae6c1d;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc3 .p1:hover {
@@ -1230,7 +1232,7 @@ div.rc3 {
     background-color: #8eae1d;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc3 .p2:hover {
@@ -1296,7 +1298,7 @@ div.rc3 {
     background-color: #1dae78;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc3 .p3:hover {
@@ -1362,7 +1364,7 @@ div.rc3 {
     background-color: #7c778c;
     border-radius: 12px;
     position: relative;
-    height: fit-content;
+    height: auto;
 }
 
 .rc3 .p4:hover {
@@ -1468,7 +1470,7 @@ section.nc {
 
 div.rev h2 {
     font-size: 56px;
-    margin-left: 8%;
+    margin-left: 75px;
     color: #f22b54;
     margin-top: 3%;
     display: inline;
@@ -1486,8 +1488,8 @@ div.rev h2 {
 .revfed h1 {
     font-size: 56px;
     color: #f22b54;
-    margin-top: -4%;
-    margin-left: 14%;
+    margin-top: -62px;
+    margin-left: 165px;
     display: inline;
     position: absolute;
 }
@@ -1549,19 +1551,21 @@ main form {
     height: 125px;
     border-radius: 5px;
 }
-.brhere{
+
+.brhere {
     display: none;
 }
+
 #rat1 {
-    margin: 41px 20px 19px;
+    margin: 41px 5px 19px;
 }
 
 #rat2 {
-    margin: 41px 20px 19px;
+    margin: 41px 5px 19px;
 }
 
 #rat3 {
-    margin: 41px 20px 19px;
+    margin: 41px 5px 19px;
 }
 
 main button.sbmt {
@@ -1576,7 +1580,7 @@ footer {
     position: relative;
     width: 98.5%;
     height: auto;
-    padding: 41px 100px 12px;
+    padding: 41px 45px 12px;
     background: #111;
     display: flex;
     justify-content: space-between;
@@ -1710,10 +1714,10 @@ footer {
 
 .topp {
     position: absolute;
-    width: 25%;
-    height: 32%;
+    width: 30%;
+    height: 35%;
     font-size: 17px;
-    left: 94%;
+    left: 72%;
     border-radius: 14px;
     background-color: black;
 }

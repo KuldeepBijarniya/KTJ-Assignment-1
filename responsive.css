@@ -1,43 +1,92 @@
-@media (max-width: 350px) {
+@media only screen and (max-width:1300px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    main form {
+        padding: 30px 0px 0 2%;
+        margin: 0 1% 1% 1%;
+    }
+
+    .gupsupmap {
+        width: 96%;
+        height: 97%;
+        margin: 0 0% 2% 2%;
+    }
+
+    .revfed h1 {
+        margin-left: 55px;
+    }
+
+    footer {
+        margin: 0;
+        width: 100%;
+        padding: 40px 10px 15px;
+    }
+
     .topp {
-        width: 38%;
-        height: 36%;
-        font-size: 14px;
-        left: 58%;
-        top: 104%;
+        left: 75%;
     }
 
-    header div.intro h1 {
-        left: 8%;
-        font-size: 4rem;
-        top: 8%;
-    }
-
-    .brhere {
-        display: block;
-        height: 1px;
+    .copyrightText {
+        margin: 0;
+        width: 100%;
     }
 }
 
-@media (max-width: 500px) {
-
-    header div.intro h1 {
-        left: 8%;
-        font-size: 4rem;
-        top: 8%;
+@media only screen and (max-width:1175px) {
+    header {
+        margin: 0;
     }
 
-    .brhere {
-        display: block;
-        height: 1px;
+    main {
+        margin: 0;
     }
 
-    #spec h1 {
-        font-size: 52px;
+    main form {
+        padding: 30px 50px 0;
+        margin: 0 1% 1% 1%;
+    }
+
+    .gupsupmap {
+        width: 96%;
+        height: 97%;
+        margin: 0 0% 2% 2%;
+    }
+
+    .revfed h1 {
+        margin-left: 140px;
+    }
+
+    footer {
+        margin: 0;
+        width: 100%;
+        padding: 40px 50px 15px;
+    }
+
+    .topp {
+        left: 75%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
     }
 }
 
-@media (max-width: 1080px) {
+@media only screen and (max-width: 550px) {
+    header {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
     header nav {
         display: none;
     }
@@ -57,28 +106,30 @@
     }
 
     header div.intro h1 {
-        left: 15%;
-        font-size: 4rem;
+        right: 25%;
+        font-size: 5rem;
         top: 8%;
     }
 
     header div.intro h2 {
-        top: 21%;
-        left: 13%;
-        font-size: 35px;
+        top: 25%;
+        right: 17%;
+        font-size: 50px;
     }
 
     #mainlogo img {
-        width: 70%;
-        height: 40%;
-        left: 16%;
+        width: 270px;
+        height: 270px;
+        right: 25%;
+        top: 36%;
     }
 
     .but button {
-        left: 2%;
-        width: 95%;
+        left: 9%;
+        width: 80%;
         font-size: 22px;
         height: 8%;
+        top: 85%;
     }
 
     header div.intro .ph2 {
@@ -87,11 +138,11 @@
     }
 
     #spec h1 {
-        font-size: 28px;
+        font-size: 40px;
     }
 
     #spec h2 {
-        font-size: 15px;
+        font-size: 20px;
         margin-bottom: -13px;
     }
 
@@ -293,7 +344,7 @@
     }
 
     #recm h1 {
-        font-size: 2rem;
+        font-size: 38px;
     }
 
     #recm h2 {
@@ -308,8 +359,8 @@
     }
 
     #recm .srh img {
-        width: 7%;
-        top: 52%;
+        width: 5%;
+        top: 61%;
         right: 7%;
     }
 
@@ -721,8 +772,10 @@
     }
 
     .review-section div h3 {
-        margin-left: 7%;
-        font-size: 35px;
+        margin-left: 20%;
+        font-size: 46px;
+        margin-top: -17px;
+        margin-bottom: 0px;
     }
 
     .reviewflex {
@@ -740,25 +793,34 @@
     }
 
     .feedbackplace {
-        flex-direction: column;
+        display: block;
     }
 
     div.rev h2 {
-        font-size: 29px;
-        margin-left: 2%;
+        font-size: 40px;
+        margin-left: 50px;
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 12px;
     }
 
     .map {
         width: 100%;
     }
 
-    .revfed h1 {
-        font-size: 34px;
-        margin-top: 9%;
-        margin-right: 11%;
+    .revfed {
+        text-align: left;
         display: block;
+    }
+
+    .revfed h1 {
+        display: block;
+        font-size: 46px;
+        margin-top: 5%;
+        margin-right: 0%;
         position: relative;
-        margin-left: 0;
+        margin-bottom: 2%;
+        margin-left: 18%;
     }
 
     main form {
@@ -793,19 +855,306 @@
     }
 
     #rat1 {
-        margin: 0%;
+        margin: 2%;
     }
 
     #rat2 {
-        margin: 0%;
+        margin: 2%;
     }
 
     #rat3 {
-        margin: 0%;
+        margin: 2%;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
     }
 }
 
-@media (max-width: 1080px) {
+@media only screen and (max-width: 470px) {
+    header div.intro h1 {
+        right: 20%;
+    }
+
+    header div.intro h2 {
+        top: 25%;
+        right: 14%;
+        font-size: 45px;
+    }
+
+    #mainlogo img {
+        right: 20%;
+    }
+
+    .review-section div h3 {
+        margin-left: 13%;
+    }
+
+    div.rev h2 {
+        font-size: 40px;
+        margin-left: 30px;
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 12px;
+    }
+
+    .revfed h1 {
+        margin-left: 13%;
+    }
+
+    main form {
+        padding: 2% 0 0 2%;
+    }
+
+    main button.sbmt {
+        width: 97%;
+    }
+
+    #rat1 {
+        margin: 3.5%;
+    }
+
+    #rat2 {
+        margin: 3.5%;
+    }
+
+    #rat3 {
+        margin: 3.5%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    header div.intro h1 {
+        right: 22%;
+        font-size: 4rem;
+        top: 8%;
+    }
+
+    header div.intro h2 {
+        top: 21%;
+        right: 12%;
+        font-size: 40px;
+    }
+
+    #mainlogo img {
+        width: 250px;
+        height: 250px;
+        right: 16%;
+        top: 35%;
+    }
+
+    .but button {
+        left: 2%;
+        width: 95%;
+        font-size: 22px;
+        height: 8%;
+    }
+
+    header div.intro .ph2 {
+        width: 100%;
+        margin-top: -1%;
+    }
+
+    #spec h1 {
+        font-size: 40px;
+    }
+
+    #spec h2 {
+        font-size: 20px;
+        margin-bottom: -13px;
+    }
+
+    #recm h1 {
+        font-size: 38px;
+    }
+
+    #recm h2 {
+        font-size: 16px;
+    }
+
+    #recm .srh input {
+        width: 90%;
+        height: 2rem;
+        margin: 6% 0 -2% 0;
+        padding-left: 14px;
+    }
+
+    #recm .srh img {
+        width: 7%;
+        top: 52%;
+        right: 7%;
+    }
+
+    .review-section div h3 {
+        margin-left: 13%;
+        font-size: 40px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+
+    .reviewflex {
+        display: block;
+    }
+
+    .reviewflex div {
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .feedbackplace {
+        display: block;
+    }
+
+    div.rev h2 {
+        font-size: 35px;
+        margin-left: 15px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .revfed {
+        text-align: left;
+        display: block;
+    }
+
+    .revfed h1 {
+        display: block;
+        font-size: 34px;
+        margin-top: 9%;
+        position: relative;
+        margin-left: 45px;
+    }
+
+    main form {
+        width: 100%;
+        padding: 4% 0 0 2%;
+    }
+
+    #fullname {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #email {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #male {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #female {
+        margin: 0px 6px;
+        margin-bottom: 3%;
+    }
+
+    #rev {
+        width: 95%;
+        margin: 3% 1% 3% 1%;
+    }
+
+    #rat1 {
+        margin: 2%;
+    }
+
+    #rat2 {
+        margin: 2%;
+    }
+
+    #rat3 {
+        margin: 2%;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    footer {
+        padding: 17px 0px 0px 11px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footcontainer {
+        flex-direction: column;
+    }
+
+    footer .footcontainer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footcontainer .sec.aboutus,
+    .quicklinks,
+    .contact {
+        width: 100%;
+    }
+
+    .copyrightText {
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .topp {
+        width: 27%;
+        height: 36%;
+        font-size: 14px;
+        left: 69%;
+    }
+}
+
+
+
+/* @media only screen and (max-width: 1080px) {
     header {
         margin: 0;
     }
@@ -847,5 +1196,25 @@
         height: 36%;
         font-size: 14px;
         left: 69%;
+    }
+} */
+@media only screen and (max-width: 350px) {
+    .topp {
+        width: 38%;
+        height: 36%;
+        font-size: 14px;
+        left: 58%;
+        top: 104%;
+    }
+
+    header div.intro h1 {
+        left: 8%;
+        font-size: 4rem;
+        top: 8%;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
     }
 }
