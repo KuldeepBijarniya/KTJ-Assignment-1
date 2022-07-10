@@ -1,24 +1,50 @@
-@media only screen and (max-width: 310px) {
+@media (max-width: 350px) {
     .topp {
-      width: 38%;
-      height: 36%;
-      font-size: 14px;
-      left: 58%;
-      top: 104%;
+        width: 38%;
+        height: 36%;
+        font-size: 14px;
+        left: 58%;
+        top: 104%;
     }
-    .brhere{
+
+    header div.intro h1 {
+        left: 8%;
+        font-size: 4rem;
+        top: 8%;
+    }
+
+    .brhere {
         display: block;
         height: 1px;
     }
 }
 
-@media only screen and (max-width: 1080px) {
+@media (max-width: 500px) {
+
+    header div.intro h1 {
+        left: 8%;
+        font-size: 4rem;
+        top: 8%;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    #spec h1 {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 1080px) {
     header nav {
         display: none;
     }
 
     header .topnav {
         display: block;
+        width: 100%;
     }
 
     header div.intro .ph1 {
@@ -33,11 +59,12 @@
     header div.intro h1 {
         left: 15%;
         font-size: 4rem;
+        top: 8%;
     }
 
     header div.intro h2 {
-        top: 18%;
-        left: 8%;
+        top: 21%;
+        left: 13%;
         font-size: 35px;
     }
 
@@ -715,10 +742,12 @@
     .feedbackplace {
         flex-direction: column;
     }
+
     div.rev h2 {
         font-size: 29px;
         margin-left: 2%;
     }
+
     .map {
         width: 100%;
     }

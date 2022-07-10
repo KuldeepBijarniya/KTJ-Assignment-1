@@ -19,13 +19,14 @@ header nav {
 
 header .topnav {
     display: none;
+    z-index: 2;
 }
 
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: fixed;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -40,6 +41,7 @@ header .topnav {
     text-decoration: none;
     font-size: 17px;
     display: block;
+    position: relative;
 }
 
 /* Style the hamburger menu */
@@ -207,13 +209,7 @@ main {
 .r1 .p-1 img {
     width: 96%;
     height: 250px;
-    margin: 9px;
-}
-
-.r1 .p-1 img {
-    width: 96%;
-    height: 250px;
-    margin: 9px;
+    margin: 2%;
 }
 
 .r1 .p-1 h2 {
@@ -248,6 +244,7 @@ main {
 .r1 .p-1 p {
     margin: 0px 10px;
     font-size: 17px;
+    padding: 3%;
 }
 
 .r1 .p-1 button {
@@ -255,7 +252,7 @@ main {
     top: 5%;
     left: 70%;
     width: 20%;
-    height: 109%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -276,7 +273,7 @@ main {
 .r1 .p-2 img {
     width: 96%;
     height: 250px;
-    margin: 9px;
+    margin: 2%;
 }
 
 .r1 .p-2 h2 {
@@ -311,6 +308,7 @@ main {
 .r1 .p-2 p {
     margin: 0px 10px;
     font-size: 17px;
+    padding: 3%;
 }
 
 .r1 .p-2 button {
@@ -318,7 +316,7 @@ main {
     top: 5%;
     left: 70%;
     width: 20%;
-    height: 109%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -338,7 +336,7 @@ main {
 
 .r1 .p-3 img {
     width: 96%;
-    margin: 9px;
+    margin: 2%;
     height: 250px;
 }
 
@@ -374,6 +372,7 @@ main {
 .r1 .p-3 p {
     margin: 0px 10px;
     font-size: 17px;
+    padding: 3%;
 }
 
 .r1 .p-3 button {
@@ -381,7 +380,7 @@ main {
     top: 5%;
     left: 70%;
     width: 20%;
-    height: 109%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -409,7 +408,7 @@ main {
 .r2 .p-1 img {
     width: 96%;
     height: 250px;
-    margin: 9px;
+    margin: 2%;
 }
 
 .r2 .p-1 h2 {
@@ -444,6 +443,7 @@ main {
 .r2 .p-1 p {
     margin: 0px 10px;
     font-size: 17px;
+    padding: 3%;
 }
 
 .r2 .p-1 button {
@@ -451,7 +451,7 @@ main {
     top: 5%;
     left: 70%;
     width: 20%;
-    height: 109%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -472,7 +472,7 @@ main {
 .r2 .p-2 img {
     width: 96%;
     height: 250px;
-    margin: 9px;
+    margin: 2%;
 }
 
 .r2 .p-2 h2 {
@@ -507,6 +507,7 @@ main {
 .r2 .p-2 p {
     margin: 0px 10px;
     font-size: 17px;
+    padding: 3%;
 }
 
 .r2 .p-2 button {
@@ -514,7 +515,7 @@ main {
     top: 5%;
     left: 70%;
     width: 20%;
-    height: 109%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -535,7 +536,7 @@ main {
 .r2 .p-3 img {
     width: 96%;
     height: 250px;
-    margin: 9px;
+    margin: 2%;
 }
 
 .r2 .p-3 h2 {
@@ -570,6 +571,7 @@ main {
 .r2 .p-3 p {
     margin: 0px 10px;
     font-size: 17px;
+    padding: 3%;
 }
 
 .r2 .p-3 button {
@@ -577,7 +579,7 @@ main {
     top: 5%;
     left: 70%;
     width: 20%;
-    height: 109%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -642,7 +644,7 @@ div.rc1 {
 
 .rc1 .p1 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -678,6 +680,7 @@ div.rc1 {
 .rc1 .p1 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc1 .p1 button {
@@ -705,7 +708,7 @@ div.rc1 {
 
 .rc1 .p2 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -741,6 +744,7 @@ div.rc1 {
 .rc1 .p2 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc1 .p2 button {
@@ -768,7 +772,7 @@ div.rc1 {
 
 .rc1 .p3 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -804,6 +808,7 @@ div.rc1 {
 .rc1 .p3 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc1 .p3 button {
@@ -831,7 +836,7 @@ div.rc1 {
 
 .rc1 .p4 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -869,6 +874,7 @@ div.rc1 {
 .rc1 .p4 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc1 .p4 button {
@@ -900,7 +906,7 @@ div.rc2 {
 
 .rc2 .p1 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -938,6 +944,7 @@ div.rc2 {
 .rc2 .p1 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc2 .p1 button {
@@ -965,7 +972,7 @@ div.rc2 {
 
 .rc2 .p2 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1003,6 +1010,7 @@ div.rc2 {
 .rc2 .p2 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc2 .p2 button {
@@ -1030,7 +1038,7 @@ div.rc2 {
 
 .rc2 .p3 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1068,6 +1076,7 @@ div.rc2 {
 .rc2 .p3 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc2 .p3 button {
@@ -1095,7 +1104,7 @@ div.rc2 {
 
 .rc2 .p4 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1133,6 +1142,7 @@ div.rc2 {
 .rc2 .p4 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc2 .p4 button {
@@ -1164,7 +1174,7 @@ div.rc3 {
 
 .rc3 .p1 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1202,6 +1212,7 @@ div.rc3 {
 .rc3 .p1 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc3 .p1 button {
@@ -1229,7 +1240,7 @@ div.rc3 {
 
 .rc3 .p2 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1267,6 +1278,7 @@ div.rc3 {
 .rc3 .p2 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc3 .p2 button {
@@ -1294,7 +1306,7 @@ div.rc3 {
 
 .rc3 .p3 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1332,6 +1344,7 @@ div.rc3 {
 .rc3 .p3 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc3 .p3 button {
@@ -1359,7 +1372,7 @@ div.rc3 {
 
 .rc3 .p4 img {
     width: 97%;
-    margin: 6px;
+    margin: 1.5%;
     height: 200px;
 }
 
@@ -1395,6 +1408,7 @@ div.rc3 {
 .rc3 .p4 p {
     font-size: 16px;
     margin: 0px 10px;
+    padding: 3%;
 }
 
 .rc3 .p4 button {
