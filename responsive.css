@@ -1,4 +1,4 @@
-@media only screen and (max-width:1300px) {
+@media only screen and (max-width: 1300px) {
     header {
         margin: 0;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media only screen and (max-width:1080px) {
+@media only screen and (max-width: 1080px) {
     header {
         margin: 0;
     }
@@ -60,6 +60,28 @@
 
     header div.intro {
         display: block;
+    }
+
+    header div.intro h1 {
+        right: 34%;
+    }
+
+    header div.intro h2 {
+        right: 24%;
+        font-size: 4rem;
+    }
+
+    #mainlogo img {
+        position: absolute;
+        width: 300px;
+        top: 35%;
+        height: 300px;
+        right: 34%;
+    }
+
+    .but button {
+        top: 84%;
+        right: 29%;
     }
 
     header div.intro .ph1 {
@@ -193,6 +215,7 @@
         display: inline-block;
         width: 46.5%;
     }
+
     .rc2 .p1 {
         display: inline-block;
         width: 46.5%;
@@ -365,7 +388,34 @@
         margin: 0;
         width: 100%;
     }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    header div.intro h1 {
+        top: 2%;
+        right: 30%;
+        font-size: 5rem;
+    }
     
+    header div.intro h2 {
+        top: 19%;
+        right: 25%;
+        font-size: 3rem;
+    }
+
+    #mainlogo img {
+        width: 300px;
+        top: 30%;
+        height: 300px;
+        right: 29%;
+    }
+
+    .but button {
+        top: 80%;
+        right: 22.5%;
+    }
 }
 
 /* @media only screen and (max-width:1175px) {
@@ -442,7 +492,7 @@
         width: 100%;
         margin-top: -1%;
     }
-    
+
     #spec h1 {
         font-size: 52px;
     }
@@ -451,9 +501,11 @@
         font-size: 32px;
         margin-bottom: -13px;
     }
+
     .specph {
         display: block;
-      }
+    }
+
     .r1 {
         display: block;
         height: 100%;
@@ -478,18 +530,18 @@
     }
 
     .r1 .p-1 h3 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r1 .p-1 h4 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r1 .p-1 p {
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
 
@@ -505,18 +557,18 @@
     }
 
     .r1 .p-2 h3 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r1 .p-2 h4 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r1 .p-2 p {
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .r1 .p-3 {
@@ -531,18 +583,18 @@
     }
 
     .r1 .p-3 h3 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r1 .p-3 h4 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r1 .p-3 p {
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .r2 .p-1 {
@@ -557,18 +609,18 @@
     }
 
     .r2 .p-1 h3 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r2 .p-1 h4 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r2 .p-1 p {
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .r2 .p-2 {
@@ -583,18 +635,18 @@
     }
 
     .r2 .p-2 h3 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r2 .p-2 h4 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r2 .p-2 p {
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .r2 .p-3 {
@@ -609,18 +661,18 @@
     }
 
     .r2 .p-3 h3 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r2 .p-3 h4 {
-          font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .r2 .p-3 p {
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .r1 .p-1 img {
@@ -721,7 +773,7 @@
     }
 
     .rc1 .p1 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc1 .p1 h2 {
@@ -730,12 +782,12 @@
     }
 
     .rc1 .p1 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc1 .p1 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc1 .p2 img {
@@ -743,7 +795,7 @@
     }
 
     .rc1 .p2 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc1 .p2 h2 {
@@ -752,12 +804,12 @@
     }
 
     .rc1 .p2 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc1 .p2 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc1 .p3 img {
@@ -765,7 +817,7 @@
     }
 
     .rc1 .p3 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc1 .p3 h2 {
@@ -774,12 +826,12 @@
     }
 
     .rc1 .p3 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc1 .p3 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc1 .p4 img {
@@ -787,7 +839,7 @@
     }
 
     .rc1 .p4 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc1 .p4 h2 {
@@ -796,12 +848,12 @@
     }
 
     .rc1 .p4 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc1 .p4 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc2 .p1 {
@@ -833,7 +885,7 @@
     }
 
     .rc2 .p1 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc2 .p1 h2 {
@@ -842,12 +894,12 @@
     }
 
     .rc2 .p1 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc2 .p1 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc2 .p2 img {
@@ -855,7 +907,7 @@
     }
 
     .rc2 .p2 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc2 .p2 h2 {
@@ -864,12 +916,12 @@
     }
 
     .rc2 .p2 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc2 .p2 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc2 .p3 img {
@@ -877,7 +929,7 @@
     }
 
     .rc2 .p3 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc2 .p3 h2 {
@@ -886,12 +938,12 @@
     }
 
     .rc2 .p3 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc2 .p3 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc2 .p4 img {
@@ -899,7 +951,7 @@
     }
 
     .rc2 .p4 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc2 .p4 h2 {
@@ -908,12 +960,12 @@
     }
 
     .rc2 .p4 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc2 .p4 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc3 .p1 {
@@ -941,7 +993,7 @@
     }
 
     .rc3 .p1 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc3 .p1 h2 {
@@ -950,12 +1002,12 @@
     }
 
     .rc3 .p1 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc3 .p1 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc3 .p2 img {
@@ -963,7 +1015,7 @@
     }
 
     .rc3 .p2 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc3 .p2 h2 {
@@ -972,12 +1024,12 @@
     }
 
     .rc3 .p2 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc3 .p2 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc3 .p3 img {
@@ -985,7 +1037,7 @@
     }
 
     .rc3 .p3 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc3 .p3 h2 {
@@ -994,12 +1046,12 @@
     }
 
     .rc3 .p3 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc3 .p3 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .rc3 .p4 img {
@@ -1007,7 +1059,7 @@
     }
 
     .rc3 .p4 p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .rc3 .p4 h2 {
@@ -1016,12 +1068,12 @@
     }
 
     .rc3 .p4 h3 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
     .rc3 .p4 h4 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .review-section div h3 {
@@ -1148,7 +1200,7 @@
     .copyrightText {
         margin: 0;
         width: 100%;
-        font-size: 18px;
+        font-size: 14px;
         padding: 0;
     }
 
@@ -1440,7 +1492,7 @@
     .copyrightText {
         margin: 0;
         width: 100%;
-        font-size: 18px;
+        font-size: 14px;
         padding: 0;
     }
 
@@ -1480,7 +1532,7 @@
     }
 
     .r1 .p-1 h2 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
@@ -1489,7 +1541,7 @@
     }
 
     #spec h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     header div.intro .ph2 img {
@@ -1557,7 +1609,7 @@
     }
 
     .r1 .p-1 h2 {
-        font-size: 26px;
+        font-size: 22px;
         margin: 0;
     }
 
@@ -1598,5 +1650,107 @@
     .brhere {
         display: block;
         height: 1px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .topp {
+        width: 38%;
+        height: 36%;
+        font-size: 14px;
+        left: 58%;
+        top: 104%;
+    }
+
+    header div.intro h1 {
+        right: 25%;
+        font-size: 3rem;
+        top: 10%;
+    }
+
+    header div.intro h2 {
+        top: 24%;
+        right: 9%;
+        font-size: 30px;
+    }
+
+    #mainlogo img {
+        width: 200px;
+        height: 200px;
+        right: 10%;
+        top: 35%;
+    }
+
+    .but button {
+        top: 75%;
+    }
+
+    .r1 .p-1 h2 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    #spec h1 {
+        font-size: 31px;
+    }
+
+    #spec h2 {
+        font-size: 17px;
+    }
+
+    header div.intro .ph2 img {
+        width: 100%;
+        height: 93.75%;
+        margin-bottom: 10%;
+    }
+
+    #recm h1 {
+        font-size: 28px;
+    }
+
+    #recm h2 {
+        font-size: 12px;
+    }
+
+    .review-section div h3 {
+        margin-left: 8%;
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    div.rev h2 {
+        font-size: 25px;
+        margin-left: 6px;
+    }
+
+    .revfed h1 {
+        margin-left: 6px;
+        font-size: 30px;
+    }
+
+    .brhere {
+        display: block;
+        height: 1px;
+    }
+
+    #male {
+        margin: 0;
+    }
+
+    #female {
+        margin: 0;
+    }
+
+    #rat1 {
+        margin: 0;
+    }
+
+    #rat2 {
+        margin: 0;
+    }
+
+    #rat3 {
+        margin: 0;
     }
 }
