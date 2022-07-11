@@ -48,7 +48,7 @@
     }
 }
 
-/* @media only screen and (max-width:1080px) {
+@media only screen and (max-width:1080px) {
     header {
         margin: 0;
     }
@@ -366,7 +366,7 @@
         width: 100%;
     }
     
-} */
+}
 
 /* @media only screen and (max-width:1175px) {
     header {
@@ -381,7 +381,8 @@
         list-style: none;
         font-size: 20px;
       }
-} */
+}
+*/
 
 @media only screen and (max-width: 600px) {
     header {
@@ -450,20 +451,25 @@
         font-size: 32px;
         margin-bottom: -13px;
     }
-
+    .specph {
+        display: block;
+      }
     .r1 {
         display: block;
         height: 100%;
+        width: 100%;
     }
 
     .r2 {
         display: block;
         height: 100%;
+        width: 100%;
     }
 
     .r1 .p-1 {
         width: 90%;
-        margin: 30px auto;
+        margin: 55px 1% 0 5%;
+        height: auto;
     }
 
     .r1 .p-1 h2 {
@@ -472,24 +478,25 @@
     }
 
     .r1 .p-1 h3 {
-        font-size: 22px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r1 .p-1 h4 {
-        font-size: 19px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r1 .p-1 p {
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
 
     .r1 .p-2 {
         width: 90%;
-        margin: 30px auto;
+        margin: 40px 1% 0 5%;
+        height: auto;
     }
 
     .r1 .p-2 h2 {
@@ -498,23 +505,24 @@
     }
 
     .r1 .p-2 h3 {
-        font-size: 22px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r1 .p-2 h4 {
-        font-size: 19px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r1 .p-2 p {
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .r1 .p-3 {
         width: 90%;
-        margin: 30px auto;
+        margin: 40px 1% 0 5%;
+        height: auto;
     }
 
     .r1 .p-3 h2 {
@@ -523,23 +531,24 @@
     }
 
     .r1 .p-3 h3 {
-        font-size: 22px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r1 .p-3 h4 {
-        font-size: 19px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r1 .p-3 p {
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .r2 .p-1 {
         width: 90%;
-        margin: 30px auto;
+        margin: 40px 1% 0 5%;
+        height: auto;
     }
 
     .r2 .p-1 h2 {
@@ -548,23 +557,24 @@
     }
 
     .r2 .p-1 h3 {
-        font-size: 22px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r2 .p-1 h4 {
-        font-size: 19px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r2 .p-1 p {
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .r2 .p-2 {
         width: 90%;
-        margin: 30px auto;
+        margin: 40px 1% 0 5%;
+        height: auto;
     }
 
     .r2 .p-2 h2 {
@@ -573,23 +583,24 @@
     }
 
     .r2 .p-2 h3 {
-        font-size: 22px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r2 .p-2 h4 {
-        font-size: 19px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r2 .p-2 p {
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .r2 .p-3 {
         width: 90%;
-        margin: 30px auto;
+        margin: 40px 2px 40px 20px;
+        height: auto;
     }
 
     .r2 .p-3 h2 {
@@ -598,18 +609,18 @@
     }
 
     .r2 .p-3 h3 {
-        font-size: 22px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r2 .p-3 h4 {
-        font-size: 19px;
+          font-size: 26px;
         margin: 0;
     }
 
     .r2 .p-3 p {
         margin: 0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .r1 .p-1 img {
@@ -649,11 +660,11 @@
     }
 
     #recm h1 {
-        font-size: 38px;
+        font-size: 46px;
     }
 
     #recm h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     #recm .srh input {
@@ -670,15 +681,18 @@
     }
 
     div.rc1 {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     div.rc2 {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     div.rc3 {
-        display: block;
+        display: flex;
+        flex-direction: column;
         height: 100%;
     }
 
@@ -702,34 +716,12 @@
         margin: 30px auto;
     }
 
-    .rc1 .p4 img {
-        height: 200px;
-    }
-
-    .rc1 .p4 p {
-        font-size: 12px;
-    }
-
-    .rc1 .p4 h2 {
-        font-size: 30px;
-        margin: 0;
-    }
-
-    .rc1 .p4 h3 {
-        font-size: 20px;
-        margin: 0;
-    }
-
-    .rc1 .p4 h4 {
-        font-size: 16px;
-    }
-
     .rc1 .p1 img {
         height: 200px;
     }
 
     .rc1 .p1 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc1 .p1 h2 {
@@ -738,12 +730,12 @@
     }
 
     .rc1 .p1 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc1 .p1 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc1 .p2 img {
@@ -751,7 +743,7 @@
     }
 
     .rc1 .p2 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc1 .p2 h2 {
@@ -760,12 +752,12 @@
     }
 
     .rc1 .p2 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc1 .p2 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc1 .p3 img {
@@ -773,7 +765,7 @@
     }
 
     .rc1 .p3 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc1 .p3 h2 {
@@ -782,12 +774,12 @@
     }
 
     .rc1 .p3 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc1 .p3 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc1 .p4 img {
@@ -795,7 +787,7 @@
     }
 
     .rc1 .p4 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc1 .p4 h2 {
@@ -804,12 +796,12 @@
     }
 
     .rc1 .p4 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc1 .p4 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc2 .p1 {
@@ -836,34 +828,12 @@
         height: 100%;
     }
 
-    .rc2 .p4 img {
-        height: 200px;
-    }
-
-    .rc2 .p4 p {
-        font-size: 12px;
-    }
-
-    .rc2 .p4 h2 {
-        font-size: 30px;
-        margin: 0;
-    }
-
-    .rc2 .p4 h3 {
-        font-size: 20px;
-        margin: 0;
-    }
-
-    .rc2 .p4 h4 {
-        font-size: 16px;
-    }
-
     .rc2 .p1 img {
         height: 200px;
     }
 
     .rc2 .p1 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc2 .p1 h2 {
@@ -872,12 +842,12 @@
     }
 
     .rc2 .p1 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc2 .p1 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc2 .p2 img {
@@ -885,7 +855,7 @@
     }
 
     .rc2 .p2 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc2 .p2 h2 {
@@ -894,12 +864,12 @@
     }
 
     .rc2 .p2 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc2 .p2 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc2 .p3 img {
@@ -907,7 +877,7 @@
     }
 
     .rc2 .p3 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc2 .p3 h2 {
@@ -916,12 +886,12 @@
     }
 
     .rc2 .p3 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc2 .p3 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc2 .p4 img {
@@ -929,7 +899,7 @@
     }
 
     .rc2 .p4 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc2 .p4 h2 {
@@ -938,12 +908,12 @@
     }
 
     .rc2 .p4 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc2 .p4 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc3 .p1 {
@@ -966,34 +936,12 @@
         margin: 30px auto;
     }
 
-    .rc3 .p4 img {
-        height: 200px;
-    }
-
-    .rc3 .p4 p {
-        font-size: 12px;
-    }
-
-    .rc3 .p4 h2 {
-        font-size: 30px;
-        margin: 0;
-    }
-
-    .rc3 .p4 h3 {
-        font-size: 20px;
-        margin: 0;
-    }
-
-    .rc3 .p4 h4 {
-        font-size: 16px;
-    }
-
     .rc3 .p1 img {
         height: 200px;
     }
 
     .rc3 .p1 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc3 .p1 h2 {
@@ -1002,12 +950,12 @@
     }
 
     .rc3 .p1 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc3 .p1 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc3 .p2 img {
@@ -1015,7 +963,7 @@
     }
 
     .rc3 .p2 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc3 .p2 h2 {
@@ -1024,12 +972,12 @@
     }
 
     .rc3 .p2 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc3 .p2 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc3 .p3 img {
@@ -1037,7 +985,7 @@
     }
 
     .rc3 .p3 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc3 .p3 h2 {
@@ -1046,12 +994,12 @@
     }
 
     .rc3 .p3 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc3 .p3 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .rc3 .p4 img {
@@ -1059,7 +1007,7 @@
     }
 
     .rc3 .p4 p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rc3 .p4 h2 {
@@ -1068,12 +1016,12 @@
     }
 
     .rc3 .p4 h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin: 0;
     }
 
     .rc3 .p4 h4 {
-        font-size: 16px;
+        font-size: 25px;
     }
 
     .review-section div h3 {
@@ -1639,7 +1587,7 @@
     }
 
     div.rev h2 {
-        font-size: 30px;
+        font-size: 28px;
         margin-left: 6px;
     }
 
