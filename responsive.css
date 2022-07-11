@@ -48,7 +48,7 @@
     }
 }
 
-@media only screen and (max-width:1080px) {
+/* @media only screen and (max-width:1080px) {
     header {
         margin: 0;
     }
@@ -365,7 +365,8 @@
         margin: 0;
         width: 100%;
     }
-}
+    
+} */
 
 /* @media only screen and (max-width:1175px) {
     header {
@@ -440,7 +441,7 @@
         width: 100%;
         margin-top: -1%;
     }
-
+    
     #spec h1 {
         font-size: 52px;
     }
