@@ -1273,11 +1273,12 @@
     }
 
     header div.intro h2 {
+        font-size: 27px;
         left: 15%;
     }
 
     #mainlogo img {
-        left: 20%;
+        left: 19%;
     }
 
     .but button {
