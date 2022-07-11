@@ -93,10 +93,10 @@ header div.intro {
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
 }
 
 header div.intro .ph1 {
-    position: relative;
     width: 50%;
     margin-bottom: 40px;
 }
@@ -106,13 +106,12 @@ header div.intro .ph1 img {
     height: 650px;
 }
 
-
 #mainlogo img {
     position: absolute;
     width: 300px;
     top: 30%;
     height: 300px;
-    right: 29%;
+    left: 14%;
 }
 
 
@@ -134,7 +133,7 @@ header div.intro .ph2 img {
 header div.intro h1 {
     position: absolute;
     top: 2%;
-    right: 30%;
+    left: 14%;
     font-size: 5rem;
     color: crimson;
 }
@@ -142,7 +141,7 @@ header div.intro h1 {
 header div.intro h2 {
     position: absolute;
     top: 19%;
-    right: 25%;
+    left: 12%;
     color: #41c5a6;
     font-size: 3rem;
 }
@@ -150,7 +149,7 @@ header div.intro h2 {
 .but button {
     position: absolute;
     top: 80%;
-    right: 22.5%;
+    left: 11%;
     width: 380px;
     height: 12%;
     font-size: 32px;

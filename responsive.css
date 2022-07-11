@@ -63,25 +63,27 @@
     }
 
     header div.intro h1 {
-        right: 34%;
+        left: 36%;
+        top: 1%;
     }
 
     header div.intro h2 {
-        right: 24%;
-        font-size: 4rem;
+        left: 34%;
+        font-size: 3rem;
+        top: 8%;
     }
 
     #mainlogo img {
-        position: absolute;
         width: 300px;
-        top: 35%;
+        top: 13%;
         height: 300px;
-        right: 34%;
+        left: 36%;
     }
 
     .but button {
-        top: 84%;
-        right: 29%;
+        top: 37%;
+        left: 33%;
+        height: 5%;
     }
 
     header div.intro .ph1 {
@@ -393,28 +395,24 @@
 
 @media only screen and (max-width: 900px) {
 
-    header div.intro h1 {
-        top: 2%;
-        right: 30%;
-        font-size: 5rem;
-    }
-    
-    header div.intro h2 {
-        top: 19%;
-        right: 25%;
-        font-size: 3rem;
+    .but button {
+        top: 42%;
+        left: 28%;
     }
 
     #mainlogo img {
-        width: 300px;
-        top: 30%;
-        height: 300px;
-        right: 29%;
+        top: 15%;
+        left: 33%;
     }
 
-    .but button {
-        top: 80%;
-        right: 22.5%;
+    header div.intro h1 {
+        left: 33%;
+    }
+
+    header div.intro h2 {
+        left: 30%;
+        font-size: 3rem;
+        top: 8%;
     }
 }
 
@@ -462,30 +460,26 @@
     }
 
     header div.intro h1 {
-        right: 25%;
         font-size: 5rem;
-        top: 8%;
+        top: 6%;
+        left: 26%;
     }
 
     header div.intro h2 {
-        top: 25%;
-        right: 17%;
-        font-size: 50px;
+        top: 15%;
+        left: 23%;
     }
 
     #mainlogo img {
-        width: 270px;
-        height: 270px;
-        right: 25%;
-        top: 36%;
+        top: 22%;
+        left: 26%;
     }
 
     .but button {
-        left: 9%;
-        width: 80%;
+        left: 20%;
         font-size: 22px;
-        height: 8%;
-        top: 85%;
+        height: 5%;
+        top: 51%;
     }
 
     header div.intro .ph2 {
@@ -1214,17 +1208,25 @@
 
 @media only screen and (max-width: 470px) {
     header div.intro h1 {
-        right: 20%;
+        left: 25%;
+        font-size: 4rem;
     }
 
     header div.intro h2 {
-        top: 25%;
-        right: 14%;
-        font-size: 45px;
+        top: 14%;
+        left: 20%;
+        font-size: 40px;
     }
 
     #mainlogo img {
-        right: 20%;
+        left: 25%;
+        height: 250px;
+        width: 250px;
+    }
+
+    .but button {
+        left: 11%;
+        top: 51%;
     }
 
     .review-section div h3 {
@@ -1267,29 +1269,20 @@
 @media only screen and (max-width: 400px) {
 
     header div.intro h1 {
-        right: 22%;
-        font-size: 4rem;
-        top: 8%;
+        left: 20%;
     }
 
     header div.intro h2 {
-        top: 21%;
-        right: 12%;
-        font-size: 40px;
+        left: 15%;
     }
 
     #mainlogo img {
-        width: 250px;
-        height: 250px;
-        right: 16%;
-        top: 35%;
+        left: 20%;
     }
 
     .but button {
-        left: 2%;
-        width: 95%;
-        font-size: 22px;
-        height: 8%;
+        left: 15%;
+        width: 75%;
     }
 
     header div.intro .ph2 {
@@ -1513,22 +1506,21 @@
     }
 
     header div.intro h1 {
-        right: 17%;
-        font-size: 4rem;
-        top: 10%;
+        left: 12%;
     }
 
     header div.intro h2 {
-        top: 25%;
-        right: 8%;
-        font-size: 37px;
+        left: 8%;
     }
 
     #mainlogo img {
-        width: 250px;
-        height: 250px;
-        right: 12%;
-        top: 40%;
+        left: 13%;
+    }
+
+    .but button {
+        left: 13%;
+        width: 75%;
+        top: 54%;
     }
 
     .r1 .p-1 h2 {
@@ -1590,22 +1582,18 @@
     }
 
     header div.intro h1 {
-        right: 25%;
+        left: 20%;
         font-size: 3rem;
-        top: 10%;
     }
 
     header div.intro h2 {
-        top: 23%;
-        right: 8%;
-        font-size: 36px;
+        font-size: 30px;
+        left: 14%;
     }
 
     #mainlogo img {
         width: 220px;
         height: 220px;
-        right: 12%;
-        top: 38%;
     }
 
     .r1 .p-1 h2 {
@@ -1660,29 +1648,6 @@
         font-size: 14px;
         left: 58%;
         top: 104%;
-    }
-
-    header div.intro h1 {
-        right: 25%;
-        font-size: 3rem;
-        top: 10%;
-    }
-
-    header div.intro h2 {
-        top: 24%;
-        left: 10%;
-        font-size: 30px;
-    }
-
-    #mainlogo img {
-        width: 200px;
-        height: 200px;
-        right: 10%;
-        top: 35%;
-    }
-
-    .but button {
-        top: 75%;
     }
 
     .r1 .p-1 h2 {
