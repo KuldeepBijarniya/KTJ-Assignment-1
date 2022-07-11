@@ -467,7 +467,7 @@
 
     header div.intro h2 {
         top: 15%;
-        left: 23%;
+        left: 0%;
         font-size: 27px;
     }
 
@@ -1215,7 +1215,6 @@
 
     header div.intro h2 {
         top: 14%;
-        left: 20%;
         font-size: 40px;
     }
 
@@ -1275,7 +1274,6 @@
 
     header div.intro h2 {
         font-size: 27px;
-        left: 15%;
     }
 
     #mainlogo img {
